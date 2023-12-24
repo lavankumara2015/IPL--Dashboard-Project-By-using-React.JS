@@ -4,12 +4,12 @@ import Navigation from './Components/Navigation/navigation';
 
 
 
+
 function App() {
   return (
     <>
+      <Navigation />
 
-
-    <Navigation/>
     </>
   );
 }

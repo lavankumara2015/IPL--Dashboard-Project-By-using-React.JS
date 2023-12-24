@@ -18,9 +18,9 @@
 .child1{
     width: 25%;
     height: 100%;
-    margin-left: -12px;
+    margin-left: -15px;
     border-radius: 10px 0  0 10px;
-    background-color: rgb(191, 138, 21);
+   
 }
 .child2{
     width: 50%;
@@ -60,3 +60,10 @@
   .h22{
     margin-left: 90px;
   }
+.imgg{
+    margin-top: 20%;
+    
+}
+#h4{
+    margin-top: 15px;
+}

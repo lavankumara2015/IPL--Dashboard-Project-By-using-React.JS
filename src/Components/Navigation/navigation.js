@@ -1,28 +1,50 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import HomeScreen from "../HomeScreen/Homescreen"
-import TeamDetails from "../teamdetailes/teamdetailes"
+import { createContext, useState } from "react"
+import PreLogin from "../prelogin.js/prelogin"
+import PostLogin from "../postlogin.js/postlogin"
 
 
 
 
 
-
+export const LoginInfo = createContext();
 
 
 const Navigation =()=>{
 
+    const [login,setLogin]=useState(false)
+
+
+    const SingInn=()=>{
+
+        setLogin(true)
+
+}
+    const singOut=()=>{
+
+        setLogin(false)
+}
+
+
     return(
         <>
+        <LoginInfo.Provider value={{login,SingInn,singOut}}>
         <BrowserRouter>
-    <Routes>
-
-        <Route path="/" element={<HomeScreen/>}/>
-        <Route path="/TeamDetails/:id" element={<TeamDetails/>}/>
-
-
-    </Routes>
+    
+   
+   {
+         login ? 
         
+         <PreLogin/>
+          :
+          <>
+          <PostLogin/> 
+           <PreLogin/>
+  
+          </>
+   }
         </BrowserRouter>
+        </LoginInfo.Provider>
         
         </>
     )
