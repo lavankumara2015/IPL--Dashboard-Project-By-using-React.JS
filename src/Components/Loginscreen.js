@@ -67,8 +67,11 @@ const singIn=useContext(LoginInfo)
   };
 
   return (
-    <form className="input" onSubmit={handleLoginSubmit}>
+    <center id="main">
+   
+    <form className="input" onSubmit={handleLoginSubmit} id="form1">
       <div className="form-group">
+      <h1 id="h1"> Login </h1><br/>
         <label htmlFor="exampleInputEmail1">Email</label>
         <input
           type="text"
@@ -89,17 +92,20 @@ const singIn=useContext(LoginInfo)
           placeholder="Password"
           value={password}
           onChange={handlePassword}
-        /><br/>
+        />
         <small className="error-message" style={{color:"red"}}>{errorUser}</small>
       </div>
       <br />
+      <div id="btnall">
       <button type="submit" className="btn btn-primary">
         Login
       </button>
       <button className="btn btn-primary" onClick={handleRegister}>
         Register
       </button>
+      </div>
     </form>
+    </center>
   );
 };
 

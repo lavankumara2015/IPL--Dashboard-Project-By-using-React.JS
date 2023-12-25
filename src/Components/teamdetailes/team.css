@@ -67,3 +67,12 @@
 #h4{
     margin-top: 15px;
 }
+.hr{
+  border: 1px solid rgb(0, 0, 0);
+ padding: 2px;
+
+  position: relative;
+  top: 10px;
+
+  
+}

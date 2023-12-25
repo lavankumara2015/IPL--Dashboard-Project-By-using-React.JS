@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import "./Register.css"
+
 const RegisterScreen = () => {
   const [username, setUsername] = useState();
   const [emailerr, setEmailerr] = useState();
@@ -56,7 +58,7 @@ const RegisterScreen = () => {
     ) {
       setPassworderr("");
     } else {
-      setPassworderr("Password should contain at least six numbers and one special character");
+      setPassworderr("Password should contain at least six numbers");
     }
   };
 
@@ -76,8 +78,9 @@ const RegisterScreen = () => {
 
   return (
     <>
-      <h1>Register Page</h1>
-      <form onSubmit={handleSubmit}>
+     
+      <form onSubmit={handleSubmit} id="form">
+      <h1>Register Page</h1><br/>
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Username</label>
           <input
@@ -90,7 +93,7 @@ const RegisterScreen = () => {
             onChange={handleUsername}
           />
         </div>
-        <small style={{ color: "red" }}>{emailerr}</small> <br />
+        <small style={{ color: "red" }}>{emailerr}</small> 
 
         <div className="form-group">
           <label htmlFor="exampleInputPassword1">Password</label>
@@ -103,7 +106,7 @@ const RegisterScreen = () => {
             onChange={handlePassword}
           />
         </div>
-        <small style={{ color: "red" }}>{passworderr}</small> <br />
+        <small style={{ color: "red" }}>{passworderr}</small> 
 
         <div className="form-group">
           <label htmlFor="exampleInputConfirmPassword1">Confirm Password</label>
@@ -116,15 +119,15 @@ const RegisterScreen = () => {
             onChange={handleConfirm}
           />
         </div>
-        <small style={{ color: "red" }}>{confirmpassworderr}</small> <br />
-        <small style={{ color: "red" }}>{submit}</small> <br />
-
+        <small style={{ color: "red" }}>{confirmpassworderr}</small> <br/>
+        {/* <small style={{ color: "red" }}>{submit}</small>  */}
+<div>
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
         <button className="btn btn-primary" onClick={handleRegister}>
           Login
-        </button>
+        </button></div>
       </form>
     </>
   );

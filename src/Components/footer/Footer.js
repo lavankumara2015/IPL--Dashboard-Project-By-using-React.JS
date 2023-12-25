@@ -15,28 +15,29 @@ const Footer =()=>{
         <h3>About</h3>
         <ul>
           <li>
-            <a href="https://www.zomato.com/careers"> wok with us</a>
+            <a href="https://www.iplt20.com/about/news-access-regulations?id=270"> IPL News Access Regulations</a>
           </li>
           <li>
-            <a href="https://www.zomato.com/contact"> contant us</a>
+            <a href="https://www.iplt20.com/about/about-us"> contant us</a>
           </li>
           <li>
-            <a href="https://blog.zomato.com/press-kit"> press kit</a>
+            <a href="https://www.iplt20.com/about/suspect-action-policy?id=290">Suspect Action Policy</a>
           </li>
           <li>
-            <a href="https://blog.zomato.com/"> blog</a>
+            <a href="https://www.iplt20.com/about/image-use-terms?id=271"> IPL Image Use Terms</a>
           </li>
         </ul>
       </div>
       <div className="lavan3">
-        <h3>For resturents</h3>
+        <h3>Guidelines</h3>
         <ul>
           <li>
-            <a href="https://www.zomato.com/partner-with-us">partner with us</a>
+            <a href="https://www.iplt20.com/about/match-playing-conditions?id=272">Match Playing Conditions</a>
           </li>
           <li>
-            <a href="https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US&pli=1">
-              apps for you
+            <a href="https://www.iplt20.com/about/pmoa-minimum-standard?id=273">
+            PMOA Minimum Standard
+
             </a>
           </li>
         </ul>
@@ -45,36 +46,37 @@ const Footer =()=>{
         <h3> Learn more</h3>
         <ul>
           <li>
-            <a href="https://www.zomato.com/policies/privacy/">privacy</a>
+            <a href="https://www.iplt20.com/privacy-policy">privacy</a>
           </li>
           <li>
-            <a href="https://www.zomato.com/policies/security/"> security</a>
+            <a href="https://www.iplt20.com/about/governing-council?id=275"> governing-council</a>
           </li>
           <li>
-            <a href="https://www.zomato.com/policies/terms-of-service/">
+            <a href="https://www.iplt20.com/about/anti-corruption-policy?id=260">
               {" "}
-              Terms
+              Anti Corruption Policy
+
             </a>
           </li>
           <li>
-            <a href="https://www.zomato.com/directory"> about us</a>
+            <a href="https://www.iplt20.com/about/about-us"> about us</a>
           </li>
         </ul>
       </div>
       <div className="lavan3">
         <h3> follow us</h3>
         <div className="social-links">
-          <a href="https://www.facebook.com/lavankumar.adicherla?mibextid=ZbWKwL">
+          <a href="https://www.facebook.com/IPL/">
             <i className="fab fa-facebook-f" />
           </a>
-          <a href="https://twitter.com/LavanKumar8096?t=ALeF2y-MSpAFvm6O7ryefQ&s=09">
+          <a href="https://twitter.com/IPL">
             <i className="fab fa-twitter" />
           </a>
-          <a href="https://instagram.com/lavan_adicherla?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+          <a href="https://www.instagram.com/iplt20/">
             <i className="fab fa-instagram" />
           </a>
-          <a href="https://www.linkedin.com/in/adicherla-lavankumar-730b53288">
-            <i className="fab fa-linkedin-in" />
+          <a href="https://www.threads.net/@iplt20">
+            <i className="fab fa-threads" />
           </a>
         </div>
       </div>

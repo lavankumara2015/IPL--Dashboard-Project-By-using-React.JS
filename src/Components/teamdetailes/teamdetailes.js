@@ -56,7 +56,6 @@ const TeamDetails =()=>{
     },{
         id:5,
         Name:"Lucknow Super Giants (LSG)",
-      
         Championships:0,
         Coach:"Justin Langer",
         Captain:"KL Rahul",
@@ -76,7 +75,7 @@ const TeamDetails =()=>{
     },{
         id:7,
         Name:" Gujarat Titans (GI)",
-        bg:"rgb(131, 85, 130)",
+        bg:"rgb(119, 199, 242)",
         Championships:"0",
         Coach:"Trevor Bayliss",
         Captain:"Shikhar Dhawan",
@@ -666,8 +665,8 @@ const TeamDetails =()=>{
                                 <img src={value.image} width={300}  style={{backgroundColor:value.bg , backgroundImage:value.backgroundImage}}/><br/><br/>
                            <center> <h3>{value.name}</h3></center>  
                                <div className="inner"> 
-                            <center> <div> <h5>{value.Matches}</h5> <p>Matches</p></div></center> <hr style={{border:"0.5px solid"} }/>
-                            <center> <div> <h5>{value.Ipl}</h5> <p>Runs</p></div></center> <hr style={{border:"0.5px solid"} }/>
+                            <center> <div> <h5>{value.Matches}</h5> <p>Matches</p></div></center> <hr className="hr"/>
+                            <center> <div> <h5>{value.Ipl}</h5> <p>Runs</p></div></center> <hr className="hr"/>
                             <center> <div> <h5>{value.Wickets}</h5> <p>Wickets</p></div></center> 
                                 </div>       
                             </div>
