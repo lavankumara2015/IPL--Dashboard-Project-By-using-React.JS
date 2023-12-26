@@ -5,9 +5,14 @@ import { LoginInfo } from "../Navigation/navigation";
 
 
 const Navbarr = () => {
+
   const navigate=useNavigate()
 
   const DataSing =useContext(LoginInfo)
+
+  const [play, setplayer]=useState("")
+
+  const login =useContext(LoginInfo)
 
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -16,14 +21,39 @@ const Navbarr = () => {
 
 // navigate("/LoginScreen")
 
-
-
 //   }
+
+
+const handleform=(e)=>{
+
+  e.preventDefault();
+
+
+  
+  navigate(`/Searchplayer?player=${play}`)
+  
+}
 
   const handleLogout=()=>{
 
     DataSing.singOut();
-    navigate("/LoginScreen")
+    navigate("/")
+  }
+
+  const handlebutton = () => {
+
+    if(play.length >=2){
+
+      navigate(`/Searchplayer?player=${play}`);
+    }
+
+   
+  };
+
+  const handlePlayers=(e)=>{
+
+    setplayer(e.target.value)
+    
   }
 
   return (
@@ -33,7 +63,7 @@ const Navbarr = () => {
         <Link to={"/"}><img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png
 " width={"120px"} className="img" /></Link>
 
-        <form className="form-inline">
+        <form className="form-inline" onSubmit={handleform}>
 
           <input
             className="form-control mr-sm-5"
@@ -41,8 +71,10 @@ const Navbarr = () => {
             type="search"
             placeholder="Search"
             aria-label="Search"
+            value={play}
+            onChange={handlePlayers}
           />
-          <button id="btn" className="btn" type="submit">
+          <button id="btn" className="btn" type="submit" onClick={handlebutton} >
             Search
           </button>
 
@@ -55,6 +87,8 @@ const Navbarr = () => {
           
         </form>
       </nav>
+
+      
 
     </>
   )

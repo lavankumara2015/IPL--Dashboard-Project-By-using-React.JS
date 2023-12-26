@@ -1,13 +1,25 @@
-import { useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { LoginInfo } from "./Navigation/navigation";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TeamDetails from "./teamdetailes/teamdetailes";
 import "./Loginscreen.css";
+// import firebase from 'firebase';
+
+
+// const auth =firebase.auth();
+
+
+
+export const username1=createContext()
 
 const LoginScreen = () => {
 
+  // const auth =firebase.auth()
 
-const singIn=useContext(LoginInfo)
+
+
+
+  const singIn=useContext(LoginInfo)
   const navigate = useNavigate();
 
   const [username, setUsername] = useState("");
@@ -95,15 +107,18 @@ const singIn=useContext(LoginInfo)
         />
         <small className="error-message" style={{color:"red"}}>{errorUser}</small>
       </div>
+
+      <p>You Don't have any account <b onClick={handleRegister} id="bb"> Register</b></p>
       <br />
       <div id="btnall">
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary" id="btn1">
         Login
       </button>
-      <button className="btn btn-primary" onClick={handleRegister}>
+      {/* <button className="btn btn-primary" onClick={handleRegister}>
         Register
-      </button>
+      </button> */}
       </div>
+      {/* <button>Sing in with Google</button> */}
     </form>
     </center>
   );

@@ -12,11 +12,14 @@ import { LoginInfo } from "../Navigation/navigation"
 
 
 
+
 const HomeScreen=()=>{
 const [id,setId]=useState(0)
     // const [login, setlogin]=useState(false);
     const navigate=useNavigate()
     const { login }= useContext(LoginInfo)
+
+    const username=useContext(LoginInfo)
 
   const  Team=[{
     id:1,
@@ -100,9 +103,16 @@ const handldeclick =()=>{
 // setId(id)
 }
 
+const user=JSON.parse(localStorage.getItem("Details"))
+
     return(
         <>
-            <Navbarr/>
+            <Navbarr/> <br/>
+
+       {
+username.login ?   <h3 style={{marginLeft:64}}> Hello :  {user.username}</h3> : null
+
+       }   
       
         <div className="mainDiv">
             {

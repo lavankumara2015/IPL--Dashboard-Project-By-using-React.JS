@@ -82,7 +82,7 @@ const RegisterScreen = () => {
       <form onSubmit={handleSubmit} id="form">
       <h1>Register Page</h1><br/>
         <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Username</label>
+          <label htmlFor="exampleInputEmail1">Email</label>
           <input
             type="email"
             className="form-control"
@@ -120,7 +120,7 @@ const RegisterScreen = () => {
           />
         </div>
         <small style={{ color: "red" }}>{confirmpassworderr}</small> <br/>
-        {/* <small style={{ color: "red" }}>{submit}</small>  */}
+        <small style={{ color: "red" }}>{submit}</small> 
 <div>
         <button type="submit" className="btn btn-primary">
           Submit

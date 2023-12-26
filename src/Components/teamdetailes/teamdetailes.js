@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 import Navbarr from "../Navbar/Navbar"
 import "./team.css"
 import { useEffect, useState } from "react"
@@ -7,12 +7,11 @@ import { useEffect, useState } from "react"
 
 const TeamDetails =()=>{
 
+    const navigate=useNavigate()
+
     const { id } = useParams();
 
     // const [data ,setData]=useState(null)
-
-
-
     // useEffect(()=>{
     //     setData(id)
     // },[data])
@@ -123,7 +122,7 @@ const TeamDetails =()=>{
         image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/2.png"
     },{
         
-        name:" Faf du Plessis",
+        name:"Faf du Plessis",
         age: "39",
         Ipl : "4133",
         Matches: "130",
@@ -612,6 +611,13 @@ const TeamDetails =()=>{
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
         image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/584.png"
     }]]
+
+    localStorage.setItem("players",JSON.stringify(Player))
+
+    // const handleadd =()=>{
+
+    //     navigate("/add")
+    // }
  
 
 
@@ -652,8 +658,8 @@ const TeamDetails =()=>{
         })
       }<br/><br/>
 
-
 <h2 className="h22">Player List</h2>
+{/* <button onClick={handleadd}>Add Player Here</button> */}
 
 <div id="container2">
 
