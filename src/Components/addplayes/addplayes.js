@@ -4,7 +4,9 @@ import "./addplayers.css"
 
 function AddPlayers() {
   const [showPlayerForm, setShowPlayerForm] = useState(false);
+
   const [players, setPlayers] = useState([]);
+
   const [formData, setFormData] = useState({
     playerName: '',
     playerImage: '',
@@ -16,14 +18,20 @@ function AddPlayers() {
 
   const handleAddPlayerClick = () => {
     setShowPlayerForm(true);
+
   };
 
   const handleInputChange = (e) => {
+
     setFormData({ ...formData, [e.target.id]: e.target.value });
+  
   };
 
+  
   const handleColorChange = (color) => {
+  
     setFormData({ ...formData, backgroundColor: color.hex });
+  
   };
 
   const handleSubmit = () => {
@@ -40,15 +48,17 @@ function AddPlayers() {
       totalMatches: 0,
     });
 
-   
     setShowPlayerForm(false);
   };
 
+ 
   return (
-    <div className="app">
+   
+   <div className="app">
+   
       <button onClick={handleAddPlayerClick}>Add Player</button>
 
-      {showPlayerForm && (
+   {showPlayerForm && (
         <div className="player-form">
           <label htmlFor="playerName">Player Name:</label>
           <input

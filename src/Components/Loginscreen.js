@@ -3,21 +3,19 @@ import { LoginInfo } from "./Navigation/navigation";
 import { Link, useNavigate } from "react-router-dom";
 import TeamDetails from "./teamdetailes/teamdetailes";
 import "./Loginscreen.css";
-// import firebase from 'firebase';
+import GoogleButton from 'react-google-button'
+import { signInWithPopup } from "firebase/auth";
+import { auth, provider } from "./Firebase/Firebase";
 
 
-// const auth =firebase.auth();
+
+
 
 
 
 export const username1=createContext()
 
 const LoginScreen = () => {
-
-  // const auth =firebase.auth()
-
-
-
 
   const singIn=useContext(LoginInfo)
   const navigate = useNavigate();
@@ -26,8 +24,10 @@ const LoginScreen = () => {
   const [errorUser, setErrorUser] = useState("");
 
   const [password, setPassword] = useState("");
-  const [errorPass, setErrorPass] = useState("");
+  const [errorPass, setErrorPass] = useState(""); 
 
+
+  const [user, setUser] = useState(null);
 
 
 
@@ -42,11 +42,8 @@ const LoginScreen = () => {
     if (user1) {
 
       alert("Login Successful");
-      
       singIn.SingInn();
       navigate("/");
-
-
 
     } else {
       setErrorUser("Invalid username or password");
@@ -67,6 +64,21 @@ const LoginScreen = () => {
   const handleRegister = () => {
     navigate("/Register");
   };
+
+
+
+const handleGoogleButton =()=>{
+
+  signInWithPopup(auth, provider).then((result)=>{
+  const user=result.user;
+  setUser(user);
+  singIn.SingInn();
+  navigate("/")
+
+}).catch((err)=>{
+  console.log(err);
+})
+}
 
   const checkCredentials = (enteredUsername, enteredPassword) => {
    
@@ -119,6 +131,11 @@ const LoginScreen = () => {
       </button> */}
       </div>
       {/* <button>Sing in with Google</button> */}
+
+
+    <GoogleButton style={{width:250, marginTop:10}}
+    onClick={(handleGoogleButton)}/>
+
     </form>
     </center>
   );

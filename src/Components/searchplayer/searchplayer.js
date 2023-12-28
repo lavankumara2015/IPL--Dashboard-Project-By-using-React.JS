@@ -14,7 +14,7 @@ const Searchplayer = () => {
 
     let playerData = [[{
 
-        name: " Virat kohli",
+        name: "Virat kohli",
         age: "35",
         Ipl: "7263",
         Matches: "237",
@@ -520,23 +520,30 @@ const Searchplayer = () => {
         const params = new URLSearchParams(location.search);
         const playerName = params.get("player");
 
-        console.log(playerName);
+    
 
-        const setplayers = playerData.flat().find((player) =>
-            player.name.toLowerCase() === playerName.toLowerCase()
-        );
+        console.log(playerName,playerData.flat());
 
+        // const setplayers = playerData.flat().filter((player) =>
+        //     player.name.toLowerCase().toString().trim() === playerName.toLowerCase().toString().trim() ||  player.name.toLowerCase().toString().trim().includes(playerName.toLowerCase().toString().trim())
+        // );
 
-        setPlayerDetails(setplayers);
+        const filterPlayers =playerData.flat().filter((player)=>{
 
-    }, [playerData, location.search]);
+            return(  
+                
+            player.name.toLowerCase().trim().toString() === playerName.toLowerCase().trim() ||
+            player.name.toLowerCase().trim().includes(playerName.trim().toLowerCase())
+         ) })
+     
+        setPlayerDetails(filterPlayers[0])
 
+        // console.log(filterPlayers[0]);
 
+    }, []);
 
     return (
-
         <>
-
             <>
                 <h1 id="h15">Player Details</h1>
 
@@ -545,15 +552,16 @@ const Searchplayer = () => {
                     playerDetails ?
 
                         <div id="main6">
-                            <div id="child1">
+                            <div id="child1" style={{ backgroundColor:playerDetails.bg, backgroundImage:playerDetails.backgroundImage}}>
                                 <img src={playerDetails.image} width={360} height={350} />
                             </div>
 
                             <div id="child2">
-                                <h2>{playerDetails.name}</h2>
-                                <p>IPL Runs: {playerDetails.Ipl}</p>
-                                <p>Matches: {playerDetails.Matches}</p>
-                                <p>Wickets: {playerDetails.Wickets}</p>
+                                <h2>{playerDetails.name}</h2><br/>
+                              
+                                <p><b>IPL Runs: &nbsp; </b> {playerDetails.Ipl}</p>
+                                <p><b>Matches: &nbsp; </b> {playerDetails.Matches}</p>
+                                <p><b>Wickets:  &nbsp;</b> {playerDetails.Wickets}</p>
                             </div>
 
                         </div>

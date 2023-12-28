@@ -8,10 +8,9 @@
 
 
 #form1 {
-    background-color: #cbc3c39c
-    ;
+    background-color: #cbc3c39c;
     width: 25vw;
-    height: 65vh;
+    height: 75vh;
     margin-top: 100px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,3 +64,4 @@
     cursor: pointer;
     font-size: 18px;
 }
+

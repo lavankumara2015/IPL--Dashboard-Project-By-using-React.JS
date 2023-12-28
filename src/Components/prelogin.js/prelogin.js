@@ -11,6 +11,7 @@ import LoginScreen from "../Loginscreen"
 import TeamDetails from "../teamdetailes/teamdetailes"
 import RegisterScreen from "../Registerscreen"
 import Searchplayer from "../searchplayer/searchplayer"
+import ErrorPage from "../Navbar/errorpage"
 
 
 const PreLogin=()=>{
@@ -23,6 +24,7 @@ const PreLogin=()=>{
         <Route path="/TeamDetails/:id" element={<TeamDetails />} />
         <Route path="/Register" element={<RegisterScreen/>}/>
         <Route path="/Searchplayer" element={<Searchplayer/>}/>
+        <Route path="/ErrorPage" element={<ErrorPage/>}/>
         </Routes>
     )
 }

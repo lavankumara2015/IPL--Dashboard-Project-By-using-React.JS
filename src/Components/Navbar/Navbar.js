@@ -28,8 +28,6 @@ const handleform=(e)=>{
 
   e.preventDefault();
 
-
-  
   navigate(`/Searchplayer?player=${play}`)
   
 }
@@ -40,14 +38,13 @@ const handleform=(e)=>{
     navigate("/")
   }
 
+  
+
   const handlebutton = () => {
 
-    if(play.length >=2){
 
       navigate(`/Searchplayer?player=${play}`);
-    }
 
-   
   };
 
   const handlePlayers=(e)=>{
@@ -74,10 +71,13 @@ const handleform=(e)=>{
             value={play}
             onChange={handlePlayers}
           />
+        {
+          DataSing.login ? 
           <button id="btn" className="btn" type="submit" onClick={handlebutton} >
-            Search
-          </button>
+          Search
+        </button> : <Link to={"/ErrorPage"}></Link>
 
+        }
           {
             DataSing.login ?  <button id="btn" className="btn" type="submit" onClick={handleLogout}>
             Logout
