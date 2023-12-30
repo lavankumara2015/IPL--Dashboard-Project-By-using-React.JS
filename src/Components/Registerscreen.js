@@ -122,10 +122,10 @@ const RegisterScreen = () => {
         <small style={{ color: "red" }}>{confirmpassworderr}</small> <br/>
         <small style={{ color: "red" }}>{submit}</small> 
 <div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary" id="po">
           Submit
         </button>
-        <button className="btn btn-primary" onClick={handleRegister}>
+        <button className="btn btn-primary" id="po" onClick={handleRegister}>
           Login
         </button></div>
       </form>

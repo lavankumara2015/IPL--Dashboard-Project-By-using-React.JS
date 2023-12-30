@@ -5,7 +5,7 @@
 #form {
     background-color: #cbc3c39c;
     width: 25vw;
-    height: 80vh;
+    height: 77vh;
     margin-top: 70px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,9 +40,9 @@
     color: red;
 }
 
-.btn{
+#po{
     padding: 10px 20px;
     margin-right: 10px;
-    cursor: pointer;
     border-radius: 10px;
+    
 }

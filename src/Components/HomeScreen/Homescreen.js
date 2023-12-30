@@ -45,7 +45,7 @@ const [id,setId]=useState(0)
 },{
     id:4,
     Name:"CSK",
-    bg:"rgb(236, 202, 24)",
+    bg:"rgb(237, 205, 22)",
     backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
     image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn3plcgt5OnAx_VelXAj9Z8TWBiqg6B-xgCJ__kuFeXr1ClntuhvVu0IugURU6TfyHk9qUuECEpos1E5ayEmx0fAupMIvNLQnLOwavDhBYxkIwvRv9cmm7_qHZmlcSwr3Un-hJpy92AooR9Qn77PUcr4yRgAORYwoTBjTYOmyYlHbZ0nDyaL3HWqUk/s2141/Original%20Chennai%20Super%20Fun%20Logo%20PNG%20-%20SVG%20File%20Download%20Free%20Download.png",
    
@@ -103,6 +103,11 @@ const handldeclick =()=>{
 // setId(id)
 }
 
+const handlebtn=()=>{
+
+    navigate("/add")
+}
+
 const user=JSON.parse(localStorage.getItem("Details"))
 
     return(
@@ -112,8 +117,13 @@ const user=JSON.parse(localStorage.getItem("Details"))
        {
 username.login ?   <h3 style={{marginLeft:64}}> Hello :  {user.username}</h3> : null
 
-       }   
-      
+       }
+          {
+
+         username.login ?   <button id="btn10" onClick={handlebtn}>Add Player</button> : null
+          
+          }
+    
         <div className="mainDiv">
             {
                 Team.map((value,ind)=>{
@@ -127,7 +137,7 @@ username.login ?   <h3 style={{marginLeft:64}}> Hello :  {user.username}</h3> : 
    <Link to={login ? `/TeamDetails/${value.id} `:"/Loginscreen"} id="link" onClick={()=>{handldeclick(value.id)}} > <div style={{backgroundColor:value.bg,backgroundImage:value.backgroundImage}} id="Container">
 
  
-                  <center > <img style={{marginTop:"30px"}} src={value.image} width={"120px"} height={"115px"}/>
+                  <center > <img style={{marginTop:"30px"}} src={value.image} width={"140px"} height={"130px"}/>
                    <h4 id="h4">{value.Name}</h4></center> 
                     
                 </div>  </Link> 
