@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter} from "react-router-dom"
 import { createContext, useState } from "react"
 import PreLogin from "../prelogin.js/prelogin"
 import PostLogin from "../postlogin.js/postlogin"
@@ -30,8 +30,6 @@ const Navigation =()=>{
         <>
         <LoginInfo.Provider value={{login,SingInn,singOut}}>
         <BrowserRouter>
-    
-   
    {
          login ? 
         
@@ -45,7 +43,7 @@ const Navigation =()=>{
    }
         </BrowserRouter>
         </LoginInfo.Provider>
-        
+
         </>
     )
 }

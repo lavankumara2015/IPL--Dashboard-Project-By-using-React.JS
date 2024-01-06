@@ -46,7 +46,7 @@ function AddPlayers() {
     <div className="player-form-container">
       <div className="player-form">
     <center><h3 style={{marginTop:-20}}>Add Players here</h3></center> <br/> 
-        {/* <label htmlFor="playerName">Player Name:</label> */}
+      
         <input
           type="text"
           id="playerName"
@@ -56,7 +56,7 @@ function AddPlayers() {
           required
         /><br/><br/>
 
-        {/* <label htmlFor="playerImage">Player Image URL:</label> */}
+       
         <input
           type="text"
           id="playerImage"
@@ -65,7 +65,7 @@ function AddPlayers() {
           placeholder ='Player Image URL'
           required
         /><br/><br/>
-        {/* <label htmlFor="wickets">Wickets:</label> */}
+       
         <input
           type="number"
           id="wickets"
@@ -75,7 +75,7 @@ function AddPlayers() {
           required
         /><br/><br/>
 
-        {/* <label htmlFor="runs">Runs:</label> */}
+
         <input
           type="number"
           id="runs"
@@ -86,7 +86,7 @@ function AddPlayers() {
           required
         /><br/><br/>
 
-        {/* <label htmlFor="totalMatches">Total Matches:</label> */}
+     
         <input
           type="number"
           id="totalMatches"

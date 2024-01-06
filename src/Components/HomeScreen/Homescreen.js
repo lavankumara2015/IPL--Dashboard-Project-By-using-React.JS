@@ -1,24 +1,16 @@
 
-
-
 import { Link, useNavigate } from "react-router-dom"
 import Navbarr from "../Navbar/Navbar"
 import Footer from "../footer/Footer"
 import "./Homestyle.css"
-import TeamDetails from "../teamdetailes/teamdetailes"
-import { useContext, useState } from "react"
+import { useContext} from "react"
 import { LoginInfo } from "../Navigation/navigation"
 
 
 
-
-
-const HomeScreen=()=>{
-const [id,setId]=useState(0)
-    // const [login, setlogin]=useState(false);
+const HomeScreen=()=>{   
     const navigate=useNavigate()
     const { login }= useContext(LoginInfo)
-
     const username=useContext(LoginInfo)
 
   const  Team=[{
@@ -95,12 +87,11 @@ const [id,setId]=useState(0)
 ]
 
 const handldeclick =()=>{
-
     if (!login) {
         alert("Please Login");
         navigate("/LoginScreen");
       }
-// setId(id)
+
 }
 
 const handlebtn=()=>{
@@ -137,7 +128,7 @@ username.login ?   <h3 style={{marginLeft:64}}> Hello :  {user.username}</h3> : 
    <Link to={login ? `/TeamDetails/${value.id} `:"/Loginscreen"} id="link" onClick={()=>{handldeclick(value.id)}} > <div style={{backgroundColor:value.bg,backgroundImage:value.backgroundImage}} id="Container">
 
  
-                  <center > <img style={{marginTop:"30px"}} src={value.image} width={"140px"} height={"130px"}/>
+                  <center > <img style={{marginTop:"30px"}} src={value.image} alt="image" width={"140px"} height={"130px"}/>
                    <h4 id="h4">{value.Name}</h4></center> 
                     
                 </div>  </Link> 

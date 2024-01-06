@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 import { Route, Routes } from "react-router-dom"
 import HomeScreen from "../HomeScreen/Homescreen"
 import LoginScreen from "../Loginscreen"

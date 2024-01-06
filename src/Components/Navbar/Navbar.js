@@ -12,16 +12,7 @@ const Navbarr = () => {
 
   const [play, setplayer]=useState("")
 
-  const login =useContext(LoginInfo)
-
-  // const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-
-//   const handleLogin=()=>{
-
-// navigate("/LoginScreen")
-
-//   }
+  // const login =useContext(LoginInfo)
 
 
 const handleform=(e)=>{
@@ -57,8 +48,7 @@ const handleform=(e)=>{
     <>
       <nav className="navbar navbar-light " id="navbarr">
 
-        <Link to={"/"}><img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png
-" width={"120px"} className="img" /></Link>
+        <Link to={"/"}><img src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png" width={"120px"} className="img" alt="ipl" /></Link>
 
         <form className="form-inline" onSubmit={handleform}>
 
@@ -69,8 +59,7 @@ const handleform=(e)=>{
             placeholder="Search"
             aria-label="Search"
             value={play}
-            onChange={handlePlayers}
-          />
+            onChange={handlePlayers}/>
         {
           DataSing.login ? 
           <button id="btn" className="btn" type="submit" onClick={handlebutton} >
@@ -83,13 +72,8 @@ const handleform=(e)=>{
             Logout
           </button> : null
           }
-           
-          
         </form>
       </nav>
-
-      
-
     </>
   )
 
