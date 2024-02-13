@@ -46,7 +46,7 @@ const HomeScreen=()=>{
     Name:"LSG",
     bg:"rgb(167, 67, 121)",
     backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-    image:"https://static.toiimg.com/thumb/msid-89248103,width-1280,height-720,resizemode-4/89248103.jpg",
+    image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Logooutline/LSGoutline.png",
    
 },{
     id:6,
