@@ -46,7 +46,7 @@ const HomeScreen=()=>{
     Name:"LSG",
     bg:"rgb(167, 67, 121)",
     backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-    image:"https://branditechture.agency/brand-logos/wp-content/uploads/2022/06/Lucknow-Super-Giants-1024x768.png",
+    image:"https://static.toiimg.com/thumb/msid-89248103,width-1280,height-720,resizemode-4/89248103.jpg",
    
 },{
     id:6,
