@@ -23,7 +23,7 @@ const TeamDetails =()=>{
         Championships:0,
         Coach:"Sanjay Bangar",
         Captain:"Faf Du Plessis",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Logooutline/RCBoutline.png" ,
+        image:"https://documents.iplt20.com/ipl/RCB/Logos/Logooutline/RCBoutline.png" ,
        
     },{
         id:2,
@@ -32,7 +32,7 @@ const TeamDetails =()=>{
         Championships:2016,
         Coach:"Daniel Vettori",
         Captain:"Aiden Markram",
-        image:"https://www.sunrisershyderabad.in/dist/img/srh-logo.gif",
+        image:"https://documents.iplt20.com/ipl/SRH/Logos/Logooutline/SRHoutline.png",
        
     },{
         id:3,
@@ -41,7 +41,7 @@ const TeamDetails =()=>{
         Championships:"2013,2015,2017,2019,2020 ",
         Coach:"Mark Boucher",
         Captain:"Hardik Pandya",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Logooutline/MIoutline.png",
+        image:"https://documents.iplt20.com/ipl/MI/Logos/Logooutline/MIoutline.png",
        
     },{
         id:4,
@@ -50,8 +50,7 @@ const TeamDetails =()=>{
         Championships:"2010,2011,2018,2021,2023 ",
         Coach:"Stephen Fleming",
         Captain:"MS Dhoni",
-        image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhn3plcgt5OnAx_VelXAj9Z8TWBiqg6B-xgCJ__kuFeXr1ClntuhvVu0IugURU6TfyHk9qUuECEpos1E5ayEmx0fAupMIvNLQnLOwavDhBYxkIwvRv9cmm7_qHZmlcSwr3Un-hJpy92AooR9Qn77PUcr4yRgAORYwoTBjTYOmyYlHbZ0nDyaL3HWqUk/s2141/Original%20Chennai%20Super%20Fun%20Logo%20PNG%20-%20SVG%20File%20Download%20Free%20Download.png",
-       
+        image:"https://documents.iplt20.com/ipl/CSK/logos/Logooutline/CSKoutline.png"       
     },{
         id:5,
         Name:"Lucknow Super Giants (LSG)",
@@ -60,7 +59,7 @@ const TeamDetails =()=>{
         Captain:"KL Rahul",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Logooutline/LSGoutline.png",
+        image:"https://documents.iplt20.com/ipl/LSG/Logos/Logooutline/LSGoutline.png",
        
     },{
         id:6,
@@ -69,7 +68,7 @@ const TeamDetails =()=>{
         Championships:"0",
         Coach:"Mark Boucher",
         Captain:"Hardik Pandya",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Logos/Logooutline/PBKSoutline.png",
+        image:"https://documents.iplt20.com/ipl/PBKS/Logos/Logooutline/PBKSoutline.png",
        
     },{
         id:7,
@@ -78,8 +77,7 @@ const TeamDetails =()=>{
         Championships:"0",
         Coach:"Trevor Bayliss",
         Captain:"Shikhar Dhawan",
-        image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAviPjlBbeRYz6ny9-HOVtr9VmyQJ3FXOw60rSy8ye_U_nMy9gPWtgEPpPMAO7va36UX6nyw9BNvWVrC5kwShXJT3V7FtA5HmDO9aAwsBS4iGQWFRQWOX_ltiBkSajurq-ulo_Mu82VYsIMDkIme9jCuqMxKTt0P1fO9bv_tdXBzYj51QgTcD7pz-2/s1024/Original%20Gujarat%20Titans%20Logo%20PNG-SVG%20File%20Download%20Free%20Download.png",
-       
+        image:"https://documents.iplt20.com/ipl/GT/Logos/Logooutline/GToutline.png"       
     },{
         id:8,
         Name:" Delhi Capitals (DC)",
@@ -87,7 +85,7 @@ const TeamDetails =()=>{
         Championships:"0",
         Coach:"Ricky Ponting",
         Captain:"David Warner",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/LogoOutline/DCoutline.png",
+        image:"https://documents.iplt20.com/ipl/DC/Logos/LogoOutline/DCoutline.png",
        
     },{
         id:9,
@@ -96,7 +94,7 @@ const TeamDetails =()=>{
         Championships:"2008",
         Coach:"Kumar Sangakkara",
         Captain:"Sanju Samson",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Logooutline/RRoutline.png",
+        image:"https://documents.iplt20.com/ipl/RR/Logos/Logooutline/RRoutline.png",
        
     },{
         id:10,
@@ -105,7 +103,7 @@ const TeamDetails =()=>{
         Championships:"2012,2014",
         Coach:"Chandrakant Pandit",
         Captain:"Shreyas Iyer",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Logooutline/KKRoutline.png",
+        image:"https://documents.iplt20.com/ipl/KKR/Logos/Logooutline/KKRoutline.png",
           
     },]
 
