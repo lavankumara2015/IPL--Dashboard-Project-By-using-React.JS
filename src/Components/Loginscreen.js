@@ -71,6 +71,9 @@ const handleGoogleButton =()=>{
 
   signInWithPopup(auth, provider).then((result)=>{
   const user=result.user;
+
+  //console.log(user.email) here getting the user email who is login through google sing in 
+
   setUser(user);
   singIn.SingInn();
   navigate("/")

@@ -117,7 +117,7 @@ const TeamDetails =()=>{
         Wickets:"4",
         bg:"rgb(191, 138, 21)",
         backgroundImage: "linear-gradient(45deg, rgb(229, 191, 101), rgb(185, 130, 8))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/2.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
     },{
         
         name:"Faf du Plessis",
@@ -127,7 +127,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(191, 138, 21)",
         backgroundImage: "linear-gradient(45deg, rgb(229, 191, 101), rgb(185, 130, 8))",
-        image:"https://rbrgloblesolution.in/IPLT2022/images/rcb/faf.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/94.png"
     },{
         
         name:"Glenn Maxwell",
@@ -137,7 +137,7 @@ const TeamDetails =()=>{
         Wickets:"31",
         bg:"rgb(191, 138, 21)",
         backgroundImage: "linear-gradient(45deg, rgb(229, 191, 101), rgb(185, 130, 8))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/28.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png"
     },{
         
         name:"Mohammed Siraj",
@@ -147,17 +147,17 @@ const TeamDetails =()=>{
         Wickets:"78",
         bg:"rgb(191, 138, 21)",
         backgroundImage: "linear-gradient(45deg, rgb(229, 191, 101), rgb(185, 130, 8))",
-        image:"https://rbrgloblesolution.in/IPLT2022/images/rcb/siraj.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/63.png"
     },{
         
-        name:"Dinesh Karthik",
-        age: "38",
-        Ipl : "4516",
-        Matches: "242",
+        name:"Rajat Patidar",
+        age: "31",
+        Ipl : "799",
+        Matches: "27",
         Wickets:"0",
         bg:"rgb(191, 138, 21)",
         backgroundImage: "linear-gradient(45deg, rgb(229, 191, 101), rgb(185, 130, 8))",
-        image:"https://rbrgloblesolution.in/IPLT2022/images/rcb/dinesh.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/597.png"
     }],[{
         
         name:" Aiden Markram",
@@ -167,7 +167,7 @@ const TeamDetails =()=>{
         Wickets:"2",
         bg:"rgb(241, 161, 46)",
         backgroundImage:"linear-gradient (45deg, rgb(239, 188, 68), rgb(243, 113, 7))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/287.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/287.png"
     },{
         
         name:" Rahul Tripathi",
@@ -177,7 +177,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(241, 161, 46)",
         backgroundImage:"linear-gradient (45deg, rgb(239, 188, 68), rgb(243, 113, 7))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/188.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/188.png"
     },{
         
         name:"Abhishek Sharma",
@@ -187,7 +187,7 @@ const TeamDetails =()=>{
         Wickets:"9",
         bg:"rgb(241, 161, 46)",
         backgroundImage:"linear-gradient (45deg, rgb(239, 188, 68), rgb(243, 113, 7))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/212.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/212.png"
     },{
         
         name:"T Natarajan",
@@ -197,7 +197,7 @@ const TeamDetails =()=>{
         Wickets:"48",
         bg:"rgb(241, 161, 46)",
         backgroundImage:"linear-gradient (45deg, rgb(239, 188, 68), rgb(243, 113, 7))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/224.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/224.png"
     },{
         
         name:"Bhuvneshwar Kumar",
@@ -207,7 +207,7 @@ const TeamDetails =()=>{
         Wickets:"170",
         bg:"rgb(241, 161, 46)",
         backgroundImage:"linear-gradient (45deg, rgb(239, 188, 68), rgb(243, 113, 7))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/15.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/15.png"
     }],[{
         
         name:" Rohit Sharma",
@@ -217,7 +217,7 @@ const TeamDetails =()=>{
         Wickets:"15",
         bg:"rgb(9, 128, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(16, 214, 213), rgb(7, 100, 171))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/6.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png"
     },{
         
         name:"Suryakumar Yadav",
@@ -227,7 +227,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(9, 128, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(16, 214, 213), rgb(7, 100, 171))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/174.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/174.png"
     },{
         
         name:"Ishan Kishan",
@@ -237,7 +237,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(9, 128, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(16, 214, 213), rgb(7, 100, 171))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/164.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/164.png"
     },{
         
         name:"N. Tilak Varma",
@@ -247,17 +247,17 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(9, 128, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(16, 214, 213), rgb(7, 100, 171))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/993.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/993.png"
     },{
         
-        name:"Piyush Chawla",
-        age: "38",
+        name:"Hardik Pandya",
+        age: "31",
         Ipl : "609",
-        Matches: "174",
-        Wickets:"179",
+        Matches: "137",
+        Wickets:"64",
         bg:"rgb(9, 128, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(16, 214, 213), rgb(7, 100, 171))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/149.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/54.png"
     }],[{
         
         name:" Ravindra Jadeja",
@@ -267,7 +267,7 @@ const TeamDetails =()=>{
         Wickets:"152",
         bg:"rgb(236, 202, 24)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",    
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/46.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/46.png"
     },{
         
         name:"MS Dhoni",
@@ -277,7 +277,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(236, 202, 24)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-          image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/57.png"
+          image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/57.png"
     },{
         
         name:"Ruturaj Gaikwad",
@@ -287,7 +287,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(236, 202, 24)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/102.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/102.png"
     },{
         
         name:"Deepak Chahar",
@@ -297,7 +297,7 @@ const TeamDetails =()=>{
         Wickets:"72",
         bg:"rgb(236, 202, 24)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/91.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/91.png"
     },{
         
         name:"Devon Conway",
@@ -307,7 +307,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(236, 202, 24)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/601.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2023/601.png"
     }],[{
         
         name:"KL Rahul",
@@ -317,7 +317,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/19.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/19.png"
     },{
         
         name:"Quinton de Kock",
@@ -327,7 +327,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/170.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/170.png"
     },{
         
         name:"Krunal Pandya",
@@ -337,7 +337,7 @@ const TeamDetails =()=>{
         Wickets:"70",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/17.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/17.png"
     },{
         
         name:"Nicholas Pooran",
@@ -347,7 +347,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)", 
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/136.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/136.png"
     },{
         
         name:"Amit Mishra",
@@ -357,7 +357,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(167, 67, 121)",
         backgroundImage:"linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/107.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/107.png"
     }],[{
         
         name:"Jonny Bairstow ",
@@ -367,7 +367,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(225, 56, 58)",
     backgroundImage:"(45deg, rgb(179, 22, 25), rgb(246, 71, 73)), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/216.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/216.png"
     },{
         
         name:"Shikhar Dhawan",
@@ -377,7 +377,7 @@ const TeamDetails =()=>{
         Wickets:"4",
         bg:"rgb(225, 56, 58)",
         backgroundImage:"(45deg, rgb(179, 22, 25), rgb(246, 71, 73)), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/11.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/11.png"
     },{
         
         name:"Jitesh Sharma",
@@ -387,17 +387,17 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(225, 56, 58)",
         backgroundImage:"(45deg, rgb(179, 22, 25), rgb(246, 71, 73)), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/1000.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/1000.png"
     },{
         
         name:"Atharva Taide",
         age: "29",
-        Ipl : "186",
-        Matches: "",
+        Ipl : "247",
+        Matches: "9",
         Wickets:"0",
         bg:"rgb(225, 56, 58)",
         backgroundImage:"(45deg, rgb(179, 22, 25), rgb(246, 71, 73)), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/1001.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/1001.png"
     },{
         
         name:"Sam Curran",
@@ -407,7 +407,7 @@ const TeamDetails =()=>{
         Wickets:"42",
         bg:"rgb(225, 56, 58)",
         backgroundImage:"(45deg, rgb(179, 22, 25), rgb(246, 71, 73)), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/138.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/138.png"
     }],[{
         
         name:"Shubman Gill",
@@ -417,7 +417,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(119, 199, 242)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 150), rgb(48, 24, 187))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/62.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/62.png"
     },{
         
         name:"Wriddhiman Saha",
@@ -427,7 +427,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(119, 199, 242)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 150), rgb(48, 24, 187))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/225.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/225.png"
     },{
         
         name:"Kane Williamson",
@@ -437,7 +437,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(119, 199, 242)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 150), rgb(48, 24, 187))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/65.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/65.png"
     },{
         
         name:"Vijay Shankar",
@@ -447,7 +447,7 @@ const TeamDetails =()=>{
         Wickets:"9",
         bg:"rgb(119, 199, 242)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 150), rgb(48, 24, 187))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/61.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/61.png"
     },{
         
         name:"Mohit Sharma",
@@ -457,7 +457,7 @@ const TeamDetails =()=>{
         Wickets:"119",
         bg:"rgb(119, 199, 242)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 150), rgb(48, 24, 187))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/100.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/100.png"
     }],[{
         
         name:"David Warner",
@@ -467,7 +467,7 @@ const TeamDetails =()=>{
         Wickets:"152",
         bg:"rgb(201, 0, 6)",
         backgroundImage:"linear-gradient (45deg, rgb(220, 181, 47), rgb(185, 36, 26))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/214.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/214.png"
     },{
         
         name:"Prithvi Shaw",
@@ -477,7 +477,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(201, 0, 6)",
         backgroundImage:"linear-gradient (45deg, rgb(220, 181, 47), rgb(185, 36, 26))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/51.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/51.png"
     },{
         
         name:"Axar Patel",
@@ -487,7 +487,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(201, 0, 6)",
         backgroundImage:"linear-gradient (45deg, rgb(220, 181, 47), rgb(185, 36, 26))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/110.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/110.png"
     },{
         
         name:"Lalit Yadav",
@@ -497,17 +497,17 @@ const TeamDetails =()=>{
         Wickets:"10",
         bg:"rgb(201, 0, 6)",
         backgroundImage:"linear-gradient (45deg, rgb(220, 181, 47), rgb(185, 36, 26))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/538.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/538.png"
     },{
         
-        name:"Lungi Ngidi",
-        age: "38",
-        Ipl : "0",
-        Matches: "14",
-        Wickets:"25",
+        name:"Kuldeep Yadav",
+        age: "30",
+        Ipl : "183",
+        Matches: "84",
+        Wickets:"87",
         bg:"rgb(201, 0, 6)",
         backgroundImage:"linear-gradient (45deg, rgb(220, 181, 47), rgb(185, 36, 26))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/99.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/14.png"
     }],[{
         
         name:"Sanju Samson",
@@ -517,7 +517,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(235, 131, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(49, 93, 201), rgb(22, 59, 151))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/190.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/190.png"
     },{
         
         name:"Jos Buttler",
@@ -527,7 +527,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(235, 131, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(49, 93, 201), rgb(22, 59, 151))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/182.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/182.png"
     },{
         
         name:"Yashasvi Jaiswal",
@@ -537,7 +537,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(235, 131, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(49, 93, 201), rgb(22, 59, 151))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/533.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/533.png"
     },{
         
         name:"Riyan Parag",
@@ -547,7 +547,7 @@ const TeamDetails =()=>{
         Wickets:"4",
         bg:"rgb(235, 131, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(49, 93, 201), rgb(22, 59, 151))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/189.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/189.png"
     },{
         
         name:"Ravichandran Ashwin",
@@ -557,7 +557,7 @@ const TeamDetails =()=>{
         Wickets:"171",
         bg:"rgb(235, 131, 181)",
         backgroundImage:"linear-gradient (45deg, rgb(49, 93, 201), rgb(22, 59, 151))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/45.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/45.png"
     }],[{
         
         name:"Rinku Singh",
@@ -567,7 +567,7 @@ const TeamDetails =()=>{
         Wickets:"0",
         bg:"rgb(66, 37, 111)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/152.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/152.png"
     },{
         
         name:"Nitish Rana",
@@ -577,7 +577,7 @@ const TeamDetails =()=>{
         Wickets:"10",
         bg:"rgb(66, 37, 111)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/148.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/148.png"
     },{
         
         name:"Shreyas Iyer",
@@ -587,7 +587,7 @@ const TeamDetails =()=>{
         Wickets:"7",
         bg:"rgb(66, 37, 111)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/12.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/12.png"
     },{
         
         name:"Andre Russell",
@@ -597,7 +597,7 @@ const TeamDetails =()=>{
         Wickets:"96",
         bg:"rgb(66, 37, 111)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/141.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/141.png"
     },{
         
         name:"Venkatesh Iyer",
@@ -607,7 +607,7 @@ const TeamDetails =()=>{
         Wickets:"3",
         bg:"rgb(66, 37, 111)",
         backgroundImage:"linear-gradient (45deg, rgb(111, 69, 172), rgb(48, 24, 87))",
-        image:"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2023/584.png"
+        image:"https://documents.iplt20.com/ipl/IPLHeadshot2024/584.png"
     }]]
 
     localStorage.setItem("players",JSON.stringify(Player))
